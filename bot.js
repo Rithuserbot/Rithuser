@@ -139,7 +139,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Pikachu working!')
+            chalk.green.bold('✅ Rithu working!')
         );
         await new Promise(r => setTimeout(r, 1100));
 
@@ -276,7 +276,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 var pinkjson = await conn.groupMetadata(msg.key.remoteJid)
                    await conn.sendMessage(msg.key.remoteJid,gb.message.replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{owner}', conn.user.name), MessageType.text);
             }
-          }  //thanks to farhan      
+          }  //thanks to RITHU
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
             // welcome
@@ -378,14 +378,14 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                 await conn.sendMessage(conn.user.jid, '-- HATA RAPORU [WHATSASENA] --' + 
                                     '\n*WhatsAsena bir hata gerçekleşti!*'+
                                     '\n_Bu hata logunda numaranız veya karşı bir tarafın numarası olabilir. Lütfen buna dikkat edin!_' +
-                                    '\n_Yardım için Telegram grubumuza yazabilirsiniz._' +
+                               
                                     '\n_Bu mesaj sizin numaranıza (kaydedilen mesajlar) gitmiş olmalıdır._\n\n' +
                                     'Gerçekleşen Hata: ' + error + '\n\n'
-                                    , MessageType.text);
+                                 
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ *PIKACHU ERROR FOUND!* ~______~*' +
-                                    '\n\n*🧞‍♂️ ' + error + '*\n\n```*Subscribe channel to get updates and to remove errors:* https://www.youtube.com/channel/UCpGa88rhUFYj-6-LBqBbWKw \n Report errors\njoin with +91 \n https://chat.whatsapp.com/BLdaoLVnX6jFnkKHFjLbH6``` ' 
-                                    , MessageType.text);
+                                await conn.sendMessage(conn.user.jid, '*~_________~ *RITHU SER ERROR FOUND!* ~______~*' +
+	                              
+
                             }
                         }
                     }
