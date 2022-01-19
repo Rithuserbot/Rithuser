@@ -12,7 +12,7 @@
 </p>
 <div align="center">
  <p align="center">
-<a href="#"><img title=RITHU" src="https://img.shields.io/badge/AMEERSUHAIL-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
+<a href="#"><img title=RITHU" src="https://img.shields.io/badge/RITHU-red?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
   <p align="center">
 <a href="https://github.com/RITHU><img title="Author" src="https://img.shields.io/badge/Author-RITHU/RITHU SER?color=blue&style=for-the-badge&logo=whatsapp"></a>
